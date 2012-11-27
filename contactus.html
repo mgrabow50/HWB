@@ -1,0 +1,167 @@
+<html>
+<head>
+<title>HWB - || Contact Us ||</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="KeyWords" content="ice-e-liminator, liminator, icy, ice-e, wiper blade, automobile, heated, heated wiper blade, snow, ice, frozen, freeze, freezing, squeegee, beam blade">
+<link href="hwb.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="referredby.js"></script>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+
+
+<!--
+
+//-->
+	function IsNull(obj) //Null Validation
+    {
+       var myString = obj
+       var inThere = myString.match(/\S/g)
+       if (inThere) {
+          return false //Invalid number
+       }
+       return true //Valid Number
+    }
+    function IsEmail(ieobj){//Email Validation
+	   var estr = ieobj          
+       var eres = estr.match(/^(\s)*[_a-z0-9A-Z-]+(\.[_a-z0-9A-Z-]+)*@[a-z0-9A-Z-]+(\.[a-z0-9A-Z-]+)+$/g)
+       if (eres)
+          return true  //Valid Email
+       return false  //Invalid Email
+    }
+
+function validf(tf){
+   if (IsNull(tf.First.value)){
+      alert('Please enter your first name.');
+	  tf.First.focus()
+	  return false;
+   }
+   if (IsNull(tf.Last.value)){
+      alert('Please enter your last name.');
+	  tf.Last.focus()
+	  return false;
+   }
+/*   if (IsNull(tf.Address1.value)){
+      alert('Please enter a value for "Address" field.');
+	  tf.Address1.focus()
+	  return false;
+   }
+   if (IsNull(tf.City.value)){
+      alert('Please enter a value for "City" field.');
+	  tf.City.focus()
+	  return false;
+   }
+   if (IsNull(tf.Zip.value)){
+      alert('Please enter a value for "Zip" field.');
+	  tf.Zip.focus()
+	  return false;
+   }*/
+   if (IsNull(tf.Email.value)){
+      alert('Please enter your email address.');
+	  tf.Email.focus()
+	  return false;
+   }
+   if (!IsEmail(tf.Email.value)){
+      alert('Please enter a valid Email!');
+	  tf.Email.focus()
+	  return false;
+   }
+   return true;
+}
+
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28997749-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>  
+<body text="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<div id="heading">
+<img src="images/Logo3.gif" width="753" height="163" alt="Ice-E-Liminator">
+</div>
+      <div id="topmenu" align="right"> 
+	    <a href="index.html">Home</a> 
+	    <a href="index.html#pricing">Pricing</a> 
+        <a href="bladeguide.php">Blade Selection</a> 
+        <a href="#">Contact Us</a> 
+		<a href="troubleshooting.html">Troubleshooting</a> 
+      </div>
+
+<form name="form1" action="thankyou.php" method="POST">
+
+  <h2>Please send more information on your Heated Wiper Blades</h2>
+  <div align="center"><font color="#FF0000">*</font>Required fields</div>
+
+<div class="contactcontain">
+<div class="formfill">Company 
+<input type="text" name="Company" size="40" maxlength="80"></div>
+<div class="formfill">First Name<font color="#FF0000">*</font> 
+<input type="text" name="First" size="40" maxlength="80">
+      </div>
+<div class="formfill">Last Name<font color="#FF0000">*</font> 
+<input type="text" name="Last" size="40" maxlength="80">
+      </div>
+<div class="formfill">Address
+<input type="text" name="Address1" size="40" maxlength="40">
+      </div>
+<div class="formfill"><input type="text" name="Address2" size="40" maxlength="40"></div>
+<div class="formfill">City
+<input type="text" name="City" size="40" maxlength="40">
+      </div>
+    <div class="formfill">State/Province 
+      <input type="text" name="State" size="5">
+      Zip/Postal Code 
+      <input type="text" name="Zip" size="10" maxlength="10">
+      </div>
+<div class="formfill">Email<font color="#FF0000">*</font>
+<input type="text" name="Email" size="40" maxlength="80"></div>
+<div class="formfill">Phone
+<input type="text" name="Phone" size="20" maxlength="20">
+      </div>
+<div class="formfill">Fax
+<input type="text" name="Fax" size="20" maxlength="20"></div>
+<div class="formfill">How did you hear about us?
+<select name="Referred" onChange="fillSelectFromArray(this.form.Referred_By, ((this.selectedIndex == -1) ? null : refer[this.selectedIndex-1]));">
+  <option value="-1">Please Select 
+  <option value="a magazine: ">Magazine Ad 
+  <option value="the Internet: ">Internet 
+  <option value="a mailing: ">Mailing 
+  <option value="a trade show: ">Trade Show 
+  <option value="a sales rep">Sales Rep
+  <option value="word of mouth">Word of Mouth
+  <option value="Other">Other
+</select>
+<SELECT NAME="Referred_By">
+  <OPTION>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</OPTION>
+</SELECT></div>
+
+  <div class="formfill">I would prefer contact by 
+    <select name="Immediate_Contact">
+  <option value="Contact me by phone" selected>Phone</option>
+  <option value="Send me a fax">Fax</option>
+  <option value="Email me">Email</option>
+  <option value="Send the requested information">Just send some information please</option>
+</select></div>
+<div class="formfill">I would like to be a distributor
+  <input type="checkbox" name="Distrib"></div>
+    <div class="formfill">What information would you like? 
+      <textarea name="Comments" cols="30" rows="5"></textarea></div>
+<div class="formfill"><input type="submit" name="Submit" value="Submit" onclick="return validf(this.form)">
+<input type="reset" name="Submit2" value="Reset"></div>
+</div>
+                          
+</form>
+</body>	  
+</html>

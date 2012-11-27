@@ -1,0 +1,118 @@
+body
+{
+	font-family: sans-serif;
+	background-image: url(images/PageGradient4.jpg);
+	background-color: orange;
+}
+h1{
+	font-weight: bold;
+	height: 6;
+	text-align: center;
+}
+h2, h3{
+	text-align: center;
+}
+li
+{
+	list-style-type: disc;
+}
+.main
+{
+	font-size: medium;
+	margin-left: 20%;
+}
+.commentary
+{
+	font-style: italic;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-bottom: medium solid silver;
+	padding: 10px 50px;
+	border-top: medium solid silver;
+}
+.selectors, .output
+{
+	margin-left: 20%;
+	margin-top: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+}
+.selectors
+{
+	font-size: x-large;
+}
+.contactcontain{
+	border: solid;
+	border-width: 2;
+	margin: 0px 100px;
+}
+.formfill
+{
+	margin: 20px 222px 20px 20px;
+	font-weight: bold;
+	text-align: right;
+}
+#heading
+{
+	text-align: center;
+}
+p
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+	line-height: -10px;
+}
+.links
+{
+	font-size: 5px;
+}
+.head_address
+{
+	text-align: center;
+	margin-bottom: 10px;
+}
+#topmenu
+{
+	border-bottom: orange;
+	border-bottom-style: solid;
+}
+#topmenu a:link, a:visited
+{
+	display: inline-block;
+	color: blue;
+	border-right-style: solid;
+	border-right-color: orange;
+	border-left-color: orange;
+	border-left-style: solid;
+	border-top-color: orange;
+	border-top-style: solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: blue;
+	width: 137px;
+	text-align: center;
+	font-weight: bold;
+}
+#topmenu a:hover
+{
+	background-color: red;
+	color: white;
+	font-weight: bold;
+}
+.topaddress p
+{
+	margin-bottom: -10px;
+}
+.chart
+{
+	display: inline-block;
+}
+.chart p
+{
+	float: none;
+}
+.chart img
+{
+	float: right;
+}

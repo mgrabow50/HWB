@@ -1,0 +1,8 @@
+Options +FollowSymLinks 
+RewriteEngine on 
+RewriteCond %{HTTP_HOST} ^hwbllc.biz [NC] 
+RewriteRule ^(.*)$ http://www.hwbllc.biz/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^hwbllc.com [NC] 
+RewriteRule ^(.*)$ http://www.hwbllc.com/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^iceeliminator.com [NC] 
+RewriteRule ^(.*)$ http://www.iceeliminator.com/$1 [L,R=301]

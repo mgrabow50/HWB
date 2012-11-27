@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /tests/
+Disallow: /thankyou.php
+Disallow: /HeatingChart_files/
+Allow: /
+
