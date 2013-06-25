@@ -53,6 +53,7 @@ self.location='bladeguide.php?make=' + val + '&model=' + val2 + '&year=' + val3;
 
       <div id="topmenu" align="right"> 
 	    <a href="index.html">Home</a> 
+        <a href="manager.html">MANAGER</a> 
 	    <a href="index.html#pricing">Pricing</a> 
         <a href="#">Blade Selection</a> 
         <a href="contactus.html">Contact Us</a> 
