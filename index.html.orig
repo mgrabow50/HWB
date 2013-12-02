@@ -27,9 +27,18 @@
 </head>
 <body bgcolor="#FFFFFF" text="#000000" background="images/PageGradient4.jpg">
 
+<<<<<<< HEAD
 <img src="images/Logo3.gif" width="753" height="163" alt="Ice-E-Liminator">
+=======
+<table width="89%" border="0" cellspacing="0" cellpadding="6">
+  <tr>
+  	<td colspan="2" align="center" height="137" width="60%"><img src="images/Logo3.gif" width="753" height="163" alt="Ice-E-Liminator"></td>
+  </tr>
   <tr>
     <td colspan="2" align="center" height="284"><img src="images/AAPEX%20Award.jpg" width="187" height="260"></td>
+  <tr bordercolor="#FF3300"> 
+    <td colspan="2" align="right"> 
+>>>>>>> rev1
       <div id="topmenu"> 
 	  <a href="#">Home</a> 
       <a href="manager.html">MANAGER</a> 
@@ -38,7 +47,17 @@
 	  <a href="contactus.html">Contact Us</a> 
 	  <a href="troubleshooting.html">Troubleshooting</a> 
       </div>
+<<<<<<< HEAD
        <div align="center"><img src="images/HWB_Logo.gif" width="360" height="247" alt="Heated Wiper Blades"></div>
+=======
+    </td>
+  </tr>
+  <tr> 
+    <td width="60%" height="285"> 
+      <div align="center"><img src="images/HWB_Logo.gif" width="360" height="247" alt="Heated Wiper Blades"></div>
+    </td>
+    <td width="40%" height="285"> 
+>>>>>>> rev1
       <div class="topaddress">
         <p align="center"><font face="Arial, Helvetica, sans-serif" size="5"><b><font size="7">H 
           W B</font></b></font></p>
@@ -55,6 +74,16 @@
       </p>
       <div align="center"><h1>Automatic Heated Beam Blades</h1></div>
       <div align="center"> <font size="6">Useful For: </font></div>
+<<<<<<< HEAD
+=======
+  </tr>
+  <tr> 
+    <td width="60%"> 
+      <table width="95%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td width="35%">&nbsp;</td>
+          <td width="64%"> 
+>>>>>>> rev1
             <font size="5"> &#8226; Cars<br>
               &#8226; Trucks<br>
               &#8226; School Buses<br>
@@ -62,6 +91,20 @@
               &#8226; Shuttle Buses<br>
               &#8226; Semi-Trucks<br>
               </font>
+<<<<<<< HEAD
+=======
+          </td>
+  </tr>
+</table>
+ 
+      
+    </td>
+    <td width="40%"> 
+      <table width="95%" border="0" cellspacing="0" cellpadding="0">
+ 	  <tr>
+          <td width="36%">&nbsp;</td>
+          <td width="62%"> 
+>>>>>>> rev1
             <div align="left"><font size="5"> &#8226; Ambulances<br>
               &#8226; Fire Trucks<br>
               &#8226; E-Units<br>
@@ -69,7 +112,20 @@
               &#8226; Motor Homes<br>
               &#8226; Tractors<br>
               </font></div>
+<<<<<<< HEAD
     <img src="images/sSNC00107.jpg" width="476" height="357" alt="Harness Package and Two Blades">
+=======
+          </td>
+    </tr>
+  </table>
+      
+    </td>
+  </tr>
+
+  <tr> 
+    <td width="60%" height="379"><img src="images/sSNC00107.jpg" width="476" height="357" alt="Harness Package and Two Blades"></td>
+    <td width="40%" height="379"> 
+>>>>>>> rev1
       <div align="right"><img src="images/sSNC00109.jpg" width="476" height="357" alt="Harness Wires and Two Blades"></div>
      <div class="chart">
       <img src="images/HeatingChart3.png" width="429" height="286" alt="Works at -40 Degrees!" border="2">
